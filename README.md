@@ -1,4 +1,4 @@
-# oqda-de
+# oqda
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-oqda-de is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://oqda.de/
+oqda provides a Business‑OS platform that integrates scheduling, team communication, process management, AI‑assistant, marketing, learning, and controlling modules for fitness studios, medical practices, agencies and other service businesses. Built in Germany, the solution runs entirely in the EU, complies with GDPR and AI‑Act, and offers modular pricing per location. The platform combines a KI‑Agent with a comprehensive suite of tools to streamline operations for small and medium enterprises.
+
+**Areas:** Business-OS · Scheduling · AI-Assistant · GDPR · Germany
+
+## oqda on APIs.io
+
+Everything profiled for oqda is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/oqda-de/](https://apis.io/providers/oqda-de/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [oqda Docs API](https://apis.io/apis/oqda-de/oqda-de-docs-api/) — Texte für Sprachmodelle
+- [oqda Katalog API](https://apis.io/apis/oqda-de/oqda-de-katalog-api/) — The Katalog API from oqda — 1 operation(s) for katalog.
+- [oqda Kontakt API](https://apis.io/apis/oqda-de/oqda-de-kontakt-api/) — The Kontakt API from oqda — 1 operation(s) for kontakt.
+- [oqda MCP API](https://apis.io/apis/oqda-de/oqda-de-mcp-api/) — Model Context Protocol
+- [oqda Oqda API](https://apis.io/apis/oqda-de/oqda-de-oqda-api-api/) — The Oqda API API from oqda — 1 operation(s) for oqda api.
+- [oqda Warteliste API](https://apis.io/apis/oqda-de/oqda-de-warteliste-api/) — The Warteliste API from oqda — 1 operation(s) for warteliste.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [oqda Agentic Access](https://apis.io/agentic-access/oqda-de/oqda-de-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ApiIndex](https://apis.io/schemas/oqda-de/oqda-de-api-index/)
+- [JsonRpcAnfrage](https://apis.io/schemas/oqda-de/oqda-de-json-rpc-anfrage/)
+- [JsonRpcAntwort](https://apis.io/schemas/oqda-de/oqda-de-json-rpc-antwort/)
+- [Katalog](https://apis.io/schemas/oqda-de/oqda-de-katalog/)
+- [NachrichtAnfrage](https://apis.io/schemas/oqda-de/oqda-de-nachricht-anfrage/)
+- [WartelisteAnfrage](https://apis.io/schemas/oqda-de/oqda-de-warteliste-anfrage/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Oqda De Context](https://apis.io/jsonld/oqda-de/oqda-de-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [oqda API Rules](https://apis.io/rules/oqda-de/oqda-de-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [oqda Domain Security](https://apis.io/security/oqda-de/oqda-de-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://oqda.de/)
+- [Terms of service](https://oqda.de/)
+- [Privacy policy](https://oqda.de/)
+
+## API Evangelist rating
+
+**Kin Score 36.0** — thin · rubric 0.28.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.7 |
+| Contract quality | 57.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 6.4 |
+| Access clarity | 17.0 |
+
+**Agent readiness 39.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 12.7** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/oqda-de/](https://apis.io/providers/oqda-de/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for oqda: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/oqda-de/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
